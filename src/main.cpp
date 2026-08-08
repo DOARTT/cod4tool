@@ -34,9 +34,9 @@ void load_addon_libaries()
 		{
 			if (dvars::load_iw3mvm && dvars::load_iw3mvm->current.enabled)
 			{
-				if (LoadLibraryA("doart\\bin\\iw3mvm.dll"))
+				if (LoadLibraryA("doart\\iw3mvm.dll"))
 				{
-					game::glob::loaded_libaries.append("doart\\bin\\iw3mvm.dll\n");
+					game::glob::loaded_libaries.append("doart\\iw3mvm.dll\n");
 				}
 			}
 

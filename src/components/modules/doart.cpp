@@ -1,6 +1,6 @@
 #include "std_include.hpp"
 
-#define VERSION "0.1"
+#define VERSION "0.15"
 
 using namespace game;
 
@@ -65,7 +65,6 @@ namespace components
 
 			je		YUMP;
 
-			cmp		ecx, eax;
 			jnz		STOCK_loc;
 
 			jmp		stock2_addr;
@@ -133,8 +132,8 @@ namespace components
 		utils::hook::set<BYTE>(0x5773F6, 0xEB);
 
 		// hook in cg_obituary for killfeed filter
-		utils::hook(0x435867, killfeed_filter_stub, HOOK_JUMP).install()->quick();
-		utils::hook(0x435814, killfeed_filter_stub2, HOOK_JUMP).install()->quick();
+		utils::hook(0x435869, killfeed_filter_stub, HOOK_JUMP).install()->quick();
+		//utils::hook(0x435814, killfeed_filter_stub2, HOOK_JUMP).install()->quick();
 
 		// hook in cg_drawdisconnect to hide connection interrupted icon with dvar
 		utils::hook(0x42F93F, CG_DrawDisconnect_stub, HOOK_JUMP).install()->quick();

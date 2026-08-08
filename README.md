@@ -1,6 +1,4 @@
-# cod4tool
-lil cod4 tool
-
+# Cod4Tool
 Draws player coordinates on screen, hides connection interrupted icon with dvar and allows for players to filter the killfeed, showing only their kills.
 Type doart in console for available dvars.
 

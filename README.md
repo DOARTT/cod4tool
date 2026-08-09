@@ -7,11 +7,11 @@ Type doart in console for available dvars.
 2. Run iw3dbg.exe and you are done
 (note): mss32.dll is needed for cod4x or else it will remove iw3dbg.exe
 
-# Loading mvm tool
+# Loading mvm tool (optional)
 1. Open cod4 and set load_iw3mvm to 1 in console
 2. Create a folder in your cod4 directory and name it "doart"
 3. Place the iw3mvm.dll in the doart folder
 4. Restart cod4 and it should load mvm automatically every time
 
 # Credits
-most code yoinked from https://github.com/xoxor4d/iw3xo-dev
+Most of the code in this is yoinked from https://github.com/xoxor4d/iw3xo-dev

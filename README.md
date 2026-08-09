@@ -8,10 +8,10 @@ Type doart in console for available dvars.
 (note): mss32.dll is needed for cod4x or else it will remove iw3dbg.exe
 
 # Loading mvm tool (optional)
-1. Open cod4 and set load_iw3mvm to 1 in console
-2. Create a folder in your cod4 directory and name it "doart"
-3. Place the iw3mvm.dll in the doart folder
-4. Restart cod4 and it should load mvm automatically every time
+1. Download the mvm version of this tool in releases.
+2. You'll need to rename iw3dbg.exe to iw3mp.exe (make a backup of your iw3mp.exe before if needed)
+3. Use mvm as normal.
+(note): mvm version of this tool removes the connection interrupted fix as mvm already does this.
 
 # Credits
 Most of the code in this is yoinked from https://github.com/xoxor4d/iw3xo-dev

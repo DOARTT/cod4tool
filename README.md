@@ -14,4 +14,4 @@ Type doart in console for available dvars.
 4. Restart cod4 and it should load mvm automatically every time
 
 # Credits
-most code yoinked from https://github.com/xoxor4d/iw3xo-dev
+Most of the code in this is yoinked from https://github.com/xoxor4d/iw3xo-dev

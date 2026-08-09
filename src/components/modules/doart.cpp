@@ -133,7 +133,7 @@ namespace components
 
 		// hook in cg_obituary for killfeed filter
 		utils::hook(0x435869, killfeed_filter_stub, HOOK_JUMP).install()->quick();
-		//utils::hook(0x435814, killfeed_filter_stub2, HOOK_JUMP).install()->quick();
+		utils::hook(0x435814, killfeed_filter_stub2, HOOK_JUMP).install()->quick();
 
 		// hook in cg_drawdisconnect to hide connection interrupted icon with dvar
 		utils::hook(0x42F93F, CG_DrawDisconnect_stub, HOOK_JUMP).install()->quick();
